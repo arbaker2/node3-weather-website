@@ -1,4 +1,4 @@
-console.log('Client side javascript file is loaded!')
+
 
 url = 'http://localhost:3000/weather?address='
 
