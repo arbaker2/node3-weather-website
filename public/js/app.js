@@ -1,6 +1,6 @@
 
 
-url = 'http://localhost:3000/weather?address='
+url = '/weather?address='
 
 
 const fetcher = (loc)=>{
