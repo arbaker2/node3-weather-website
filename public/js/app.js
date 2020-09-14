@@ -13,7 +13,7 @@ const fetcher = (loc)=>{
                 return message1.textContent = data.error
             }
             message1.textContent = data.location
-            message2.textContent = data.forecast.description
+            message2.textContent = data.forecast.forecast
         })
     })
 }

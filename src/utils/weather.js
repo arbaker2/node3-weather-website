@@ -9,9 +9,7 @@ const getWeather = (lat, lon, callback)=>{
             callback('could not get weather', undefined)
         }else{
             callback(undefined, {
-                description: body.current.weather_descriptions[0],
-                temp: body.current.temperature,
-                feel: body.current.feelslike,
+                forecast: 'It is ' + body.current.weather_descriptions[0] +' out. The temp is ' + body.current.temperature + ' but it feels like ' + body.current.feelslike,
             })
         }
     })
